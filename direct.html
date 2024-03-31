@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitar</title>
+   <style>
+   body {
+     font-family: Arial, sans-serif;
+     background-color: white;
+     max-width:100px ;
+     height:300px;
+     margin: 10px;
+     padding: ;
+        }
+   .container{
+       background: #fbb;
+        width:550px;
+        height:120px;
+        padding:20px;
+   }
+   .photo{
+     position:absolute;
+     top:5px;
+     left:25px;
+     width:110px ;
+     height: 110px;
+     border-radius: 50%;
+     overflow: hidden;
+     margin: 15px auto;
+     border: 4px groove black ;
+   }    
+   .icon{
+     position: absolute;
+     top:240px;
+     left:10px;
+   }
+   .icon1{
+     position: absolute;
+     top:265px;
+     left: 10px;
+   }
+    .icon2{
+     position: absolute;
+     top:290px;
+     left: 10px;
+    }
+    .icon3{
+     position: absolute;
+     top:315px;
+     left: 10px;
+    }
+    .icon4{
+     position: absolute;
+     top:340px;
+     left: 10px;
+    }
+   .Name{
+     position:absolute;
+     top:135px;
+     left:23px;
+  }
+  .text{
+    position:absolute;
+    top:107px;
+    left:20px;
+    white-space: pre;
+  }
+   .text1{
+    position:absolute;
+    top: 122.5px;
+    left:20px;
+    white-space: pre;
+   }
+ .text2{
+    position:absolute;
+    top:134.5px;
+    left: 20px;
+ }
+ .text3{
+    position:absolute;
+    top:147.5px;
+    left: 20px;
+ }
+ .text4{
+  position:absolute;
+    top:159.5px;
+    left: 20px;
+    white-space:pre;
+ }
+     .personal{
+      position:absolute;
+      background-color: lightblue;
+      top: 170px;
+      left: ;
+      display: flex;
+      align-items: center;
+      padding:10px;
+      margin:30px 0;
+      font-size:15px;
+      border-radius: 0 30px 30px 0;
+      line-height:1.5px;
+     }
+    .edu{
+      position:absolute;
+      background-color: lightblue;
+      top: 350px;
+      left: ;
+      display: flex;
+      align-items: center;
+      padding:10px;
+      margin:30px 0;
+      font-size:15px;
+      border-radius: 0 30px 30px 0;
+      line-height:1.5px;
+    }
+
+
+    .Ele{
+      position: absolute;
+      text-decoration: underline;
+      top:390px;
+      left:;
+      align-items: center;
+    
+    }
+    .school{
+      position: absolute;
+      top:425px;
+      font-size: 11px;
+      font-family: Arial;
+    }
+    .high{
+     position: absolute;
+      top:240px;
+      left:;
+      align-items: center;
+      white-space: pre;
+    
+    }
+    .jun{
+     position: absolute;
+     top:499px;
+     left:15px;
+     align-items: center; 
+     color:red;
+    }
+    .sen{
+      position: absolute;
+      top:579px;
+      left:15px;
+      align-items: center;
+      color:red;
+    }
+   .highschool{
+      position: absolute;
+      top:525px;
+      font-size: 11px;
+      font-family: Arial;
+    }
+     .highschool1{
+      position: absolute;
+      top:607px;
+      font-size: 11px;
+      font-family: Arial;
+    }
+    .tert{
+      position: absolute;
+      text-decoration: underline;
+      top:670px;
+      font-family: Arial;  
+    }
+    .college{
+     position: absolute;
+      top:701px;
+      font-size: 11px;
+      font-family: Arial;
+    }
+    .work{
+      position:absolute;
+      background-color: lightblue;
+      top: 763px;
+      left: ;
+      display: flex;
+      align-items: center;
+      padding:10px;
+      margin:30px 0;
+      font-size:15px;
+      border-radius: 0 30px 30px 0;
+      line-height:1.5px;
+    }
+    .job-title{
+      position:absolute;
+      top:800px;
+      align-items: center; 
+      color:maroon;
+    }
+    .company{
+     position:absolute;
+      top:823px;
+      align-items: center; 
+      color:maroon;  
+    }
+    .date{
+      position:absolute;
+      top:858px;
+      align-items: center; 
+      color:maroon;  
+    }
+    .description{
+      position:absolute;
+      top:873px;
+      align-items: center; 
+      color:maroon;  
+    }
+    .job{
+      position:absolute;
+      top:937px;
+      align-items: center; 
+      color:maroon;
+    }
+    .com{
+      position:absolute;
+      top:959px;
+      align-items: center; 
+      color:maroon;
+    }
+    .da{
+      position:absolute;
+      top:997px;
+      align-items: center; 
+      color:maroon;
+    }
+    .descrip{
+      position:absolute;
+      top:1020px;
+      align-items: center; 
+      color:maroon;
+    }
+    .me{
+      position:absolute;
+      top:-30px;
+      left:200px;
+      align-items: center; 
+      color:black;
+      white-space: pre;
+    }
+    .textme{
+      position:absolute;
+      top:110px;
+      left:240px;
+      width:300px;
+      height:5px;
+      color:black;
+      font-size: 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .sk{
+     position:absolute;
+      background-color: lightblue;
+      top: 170px;
+      left:280px ;
+      display: flex;
+      align-items: center;
+      padding:10px;
+      margin:30px 0;
+      font-size:15px;
+      border-radius: 0 30px 30px 0;
+      line-height:1.5px;
+    }
+    .prog{
+     position:absolute;
+      top:209px;
+      left:300px;
+      align-items: center; 
+      color:orange;
+      white-space: pre;
+  
+    }
+    .dot{
+  position: absolute;
+  top:240px;
+  left:310px;
+  font-size: 10px;
+    }
+    .comm{
+  position: absolute;
+  top:290px;
+  left:302px;
+  white-space: pre;
+  color:orange;
+    }
+    .c{
+   position: absolute;
+  top:320px;
+  left:310px;
+  font-size: 10px; 
+    }
+    .Lang{
+  position: absolute;
+  top:360px;
+  left:302px;
+  white-space: pre;
+  color:orange;
+    }
+    .v{
+  position: absolute;
+  top:395px;
+  left:310px;
+  font-size: 10px;  
+    }
+    .pro{
+     position:absolute;
+      background-color: lightblue;
+      top: 420px;
+      left: 280px;
+      display: flex;
+      align-items: center;
+      padding:10px;
+      margin:30px 0;
+      font-size:15px;
+      border-radius: 0 30px 30px 0;
+      line-height:1.5px; 
+    }
+    .type{
+  position: absolute;
+  top:420px;
+  left:300px;
+  white-space: pre;
+  color:black; 
+    }
+    .des{
+      position:absolute;
+      top:545px;
+      left:300px;
+      width:290px;
+      height:5px;
+      color:black;
+      font-size: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .role{
+      position:absolute;
+      top:600px;
+      left:300px;
+      width:290px;
+      height:5px;
+      color:black;
+      font-size: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .cont{
+      position:absolute;
+      top:672px;
+      left:300px;
+      width:290px;
+      height:5px;
+      color:black;
+      font-size: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;   
+    }
+  .type1{
+    position: absolute;
+    top:665px;
+    left:300px;
+    white-space: pre;
+    color:black; 
+    }
+     .des1{
+      position:absolute;
+      top:780px;
+      left:300px;
+      width:290px;
+      height:5px;
+      color:black;
+      font-size: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .role1{
+      position:absolute;
+      top:830px;
+      left:300px;
+      width:290px;
+      height:5px;
+      color:black;
+      font-size: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+    }
+      .cont1{
+      position:absolute;
+      top:899px;
+      left:300px;
+      width:290px;
+      height:5px;
+      color:black;
+      font-size: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;   
+    }
+    .references{
+     position:absolute;
+      background-color: lightblue;
+      top: 920px;
+      left: 280px;
+      display: flex;
+      align-items: center;
+      padding:10px;
+      margin:30px 0;
+      font-size:15px;
+      border-radius: 0 30px 30px 0;
+      line-height:1.5px; 
+  
+    }
+    .line2{
+      position:absolute;
+      top:940px;
+      left:302px;
+      color:lightblue;
+    }
+    .pi{
+      position: absolute;
+      top: 980px;
+      left:302px;
+      white-space: pre;
+      font-size: 12px;
+    }
+    .pi1{
+     position: absolute;
+      top: 999px;
+      left:302px;
+      white-space: pre;
+      font-size: 12px;
+    }
+    .icn1{
+     position: absolute;
+     top:1035px;
+     left:302px; 
+    }
+    .icn2{
+     position: absolute;
+     top:1060px;
+     left:302px; 
+    }
+    .my{
+      position: absolute;
+      top:507px;
+      left:165px;
+      white-space: pre;
+    }
+    .ema{
+      position: absolute;
+      top:520px;
+      left:166px;
+      
+    }
+
+  
+ </style>
+   </head>
+    <body>
+      <div class="container">
+        </div>
+      <div class="photo">
+        <img src="images/pic1.jpg" width="110px" height="110px">
+      </div>
+        <div class="Name">
+        <p class="jayan"><b>JAY-AN T. IBASAN</b></p>
+        </div>
+       <div class="Personal Information">
+        <h3 class="personal">PERSONAL INFORMATION</h3>
+        </div>
+        <div class="icon">
+          <img src="images/loca.png"width="20px"height="20px">
+          </div>
+         <div class="icon1">
+          <img src="images/con.png" width="20px" height="20px"></div>
+          <div class="icon2">
+            <img src="images/ma.png"
+            width="20px"height="20px">
+        </div>
+        <div class="icon3">
+          <img src="images/github.png" width="20px" height="20px">
+        </div>
+        <div class="icon4">
+          <img src="images/book.png" width="20px" height="20px">
+        </div>
+          <div class="text">
+            <h6 class="text">BINUANGAN OROQUIETA CITY<br>MISAMIS OCCIDENTAL,7202 </h6>
+          </div>
+          <div class="text1">
+            <h6 class="text1">+63 920 352 8224</h6>
+          </div>
+          <div class="text2">
+            <h6 class="text2">ibasanjyn@gmail.com</h6>
+          </div>
+           <div class="text3">
+            <h6 class="text3"><a href="https://github.com/Jnky11">https://github.com/Jnky11></a></h6>
+          </div>
+         <div class="text4">
+            <h6 class="text4"><a href=" https://www.facebook.com/profile.php?id=100080327884925">Jay-An</a></h6>
+          </div>
+         <div class="Education">
+        <h3 class="edu">EDUCATIONAL BACKGROUND
+        </div>
+        <div class="Elem">
+          <h4 class="Ele">ELEMENTARY</h4>
+        </div>
+        <div class="school">
+          <p class="Elementary"><b>BINUANGAN ELEMENTARY SCHOOL<br><br>
+            YEAR : (2015-2016)<br><br>-FIRST HONORABLE MENTION</p></b>   </div>
+          
+          <div class="high">
+          <h4 class="high"><u>HIGH SCHOOL</u></h4>
+        </div>
+        <div class="jnior">
+         <h6 class="jun">JUNIOR HIGH SCHOOL</h6>
+       <p class="highschool"><b>MISAMIS OCCIDENTAL NATIONAL HIGH SCHOOL<br><br>
+            YEAR : (2019-2020)<br><br>-WITH HONOR</p></b>  
+         </div>
+        <div class="senior">
+         <h6 class="sen">SENIOR HIGH SCHOOL</h6>
+        
+         <p class="highschool1"><b>MISAMIS OCCIDENTAL NATIONAL HIGH SCHOOL<br><br>
+            YEAR : (2021-2022)<br><br>-WITH HIGH HONOR</p></b> 
+            </div>
+             <div class="ter">
+          <h4 class="tert">TERTIARY EDUCATION</h4>
+        
+         <p class="college"><b>USTP OROQUEITA<br>BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY<br><br>
+            YEAR : (2024-2026)<br><br>- PENDING</p></b>
+            </div>
+            <div class="exper">
+              <h3 class="work">WORK EXPERIENCE</h3>
+            </div>
+           <div class="experience">
+           <h5 class="job-title"><u>IT INTERN</u></h5>
+           <h5 class="company">NEXEN Innovation Technologies<br>Inc. Central Office
+           </h5>
+           <h5 class="date">March 2024 - Present</h5>
+           <h6 class="description">Supporting daily operations, assisting with projects,<br>learning new skills,collaborating with teams, contributing<br>to innovation, and supporting training and documentation<br>efforts within the organization.</h6>
+            </div>
+           <div class="expe">
+           <h5 class="job"><u>IT CONSULTANTS</u></h5>
+           <h5 class="com">NEXEN Innovation Technologies<br>Inc. Central Office
+           </h5>
+           <h5 class="da">March 2024 - Present</h5>
+           <h6 class="descrip">Provides strategic advice, guidance,and recommendations<br>to clients on various IT-related matters,such as<br> technology adoption, optimization, and innovation.</h6>
+            </div>
+            <div class="me">
+              <h4 class="ab"><u>PROFESSIONAL SUMMARY </u></h4></div>
+              <div class="textme">
+ <p> I have a strong interest in IT and hands-on experience in network administration, troubleshooting, and software development. I am proficient in various operating systems, programming languages, and IT tools. I quickly adapt and collaborate effectively in team settings, making me a valuable asset in IT environments. I am eager to apply my skills and contribute as an IT intern or consultant in a tech-driven company.</p> </div>
+          <div class="ski">
+            <h4 class="sk">SKILLS</h4>
+         <h6 class="prog"><u>PROGRAMMING LANGUAGES</u></h6>
+         </div>
+         <p class="dot"><b>•PYTHON
+               •JAVA
+               •JAVASCRIPT
+               •HTML/CSS
+               </b>
+         </p>
+         <h6 class="comm"><u>SOFT SKILLS</u></h6>
+         <p class="c">
+          <b>Communication 
+           Teamwork 
+           Time Management
+           </b>
+           </p>
+
+           <h6 class="Lang"><u>LANGUANGE SKILLS</u></h6>
+           <p class="v"><b>
+              English 
+              Tagalog
+              </b>
+              </p>
+              <div class="project">
+              <h4 class="pro">PROJECT</h4></div>
+              <div class="type">
+             <h5><u>Cybersecurity Risk Assessment<br>and Mitigation</u></h5></div>        
+             <div class="des">
+<p><b><i>DESCRIPTION:</b></i> A financial institution wants to enhance its cybersecurity posture to protect sensitive customer data and comply with industry regulations. They need to identify potential vulnerabilities, assess risks, and implement measures to mitigate cyber threats.</p>  </div>
+            <div class="role">
+<p><b><i>ROLE:</b></i> IT CONSULTANTS <br> The IT consultants are tasked with conducting a comprehensive cybersecurity risk assessment and developing a mitigation strategy.</p>
+            </div>
+          <div class="cont">
+<p><b><i>CONTRIBUTION:</b></i>
+Risk Assessment:Conducting a thorough assessment of the company's IT infrastructure, networks, applications, and data storage systems to identify vulnerabilities and potential attack vectors.
+Security Tool Implementation: Recommending and implementing security tools such as firewalls, intrusion detection systems (IDS), endpoint protection, encryption solutions, and security information and event management (SIEM) platforms.
+</p> </div>
+        <div class="type1">
+     <h5><u>Implementation of a Customer Relationship<br>Management (CRM) System</u></h5></div>                
+              <div class="des1">
+<p><b><i>DESCRIPTION:</b></i> A company wants to improve its customer management processes by implementing a CRM system. The goal is to centralize customer data, streamline communication, and enhance customer service.</p>  </div>  
+            <div class="role1">
+  <p><b><i>ROLE:</b></i> IT CONSULTANTS <br> They are responsible for assessing the company's current IT infrastructure, understanding its business processes, and recommending the most suitable CRM system.</p> </div>          
+         <div class="cont1">
+<p><b><i>CONTRIBUTION:</b></i>
+ The CRM system implementation project contributes to the company by centralizing customer data, improving communication processes, and enhancing customer service. It also leads to efficiency gains through automation, provides data-driven insights for informed decision-making, and facilitates continuous improvement to support sustainable business growth.
+ </p> </div>
+<div class="references"><h24><b>REFERENCES:</b></h4> 
+</div>
+            <div class="line2">
+          <h2>_____________________________</h2></div>
+          <p class="pi"><b>JAY-AN IBASAN</b></p>
+          <p class="pi1"><b>IT CONSULTANTS, NEXEN, OROQUIETA CITY</b></p> 
+         <div class="icn1">
+          <img src="images/con.png" width="20px" height="20px"></div>
+          <div class="icn2">
+            <img src="images/ma.png"
+            width="20px"height="20px">
+ </div>
+          <div class="my">
+            <h6 class="my">+63 920 352 8224</h6>
+          </div>
+          <div class="ema">
+           <h6 class="ema">ibasanjyn@gmail.com.com</h6>
+          </div>
+
+    </body>
+</html>
